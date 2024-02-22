@@ -1,0 +1,20 @@
+
+footer{
+    width: 100vw;
+    overflow-x: hidden;
+    padding: 20px 10%;
+    background-color: #fdfcf3;
+    margin-top: -2px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  @media screen and (max-width: 820px) {
+    .copy{
+        font-size: 0.8em;
+    }
+    .design{
+      display: none;
+    }
+  }

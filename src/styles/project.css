@@ -1,0 +1,107 @@
+/* projects */
+
+.projectContainer {
+    flex-direction: column;
+  }
+  
+  .projectTitle {
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+  
+  .projects {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+  }
+  
+  .projectItem {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #fdfcf3;
+    background: linear-gradient(0deg, #02b7cf 0%, #fdf7a2 100%);
+    box-shadow: 0 0 6px #909091;
+    padding: 10px 5px;
+    max-width: 345px;
+    margin-bottom: 15px;
+  }
+
+
+  
+  .projectImage {
+    width: 100%;
+    margin-bottom: 25px;
+    transition: 0.3s ease-in-out;
+  }
+
+  .projectItem:hover .projectImage{
+    width: 98%;
+    box-shadow: 0 0 6px #909091;
+
+  }
+  
+  .projectItemTitle {
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 0 5px;
+  }
+  
+  .projectDecs {
+    margin-top: 6px;
+    font-size: 1.5em;
+    font-weight: 400;
+    padding: 0 5px;
+  }
+  
+  .projectSkills {
+    width: 100%;
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    font-size: 1.2em;
+    padding: 0 5px;
+  }
+  
+  .projectSkillsItem {
+    font-size: 1.2em;
+    font-weight: 400;
+    border-radius: 4px;
+    background-color: #fdf7a2;
+    background: linear-gradient( 90deg, #fdf7a2 0%, #f743df 100%);
+    padding: 0 10px;
+  }
+  
+  .projectLinks {
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .projectLinkItem {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    background-color: #fdf7a2;
+    padding: 0 10px;
+    border-radius: 4px;
+  }
+
+  .projectLinkItem:hover{
+    background-image: linear-gradient(to right, #fdfcf3, #f7eb7f);
+  }
+  
+  .projectLinkItem:nth-child(2){
+    display: none;
+  }
