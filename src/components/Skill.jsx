@@ -27,7 +27,7 @@ export default function Skill() {
 
                     {Tools.map((tool, id) => (
                         <div key={id} className="skillItem">
-                            <div className="ToolImgContainer">
+                            <div className="skillImgContainer tool">
                                 <img src={tool.image} alt={tool.title} className='skillImage' />
                             </div>
                             <p className="skillTitle">{tool.title}</p>

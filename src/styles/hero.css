@@ -117,6 +117,7 @@
     }
     .heroTexts {
       align-items: center;
+      text-align: center;
       .heroImg {
         width: 80%;
         margin-bottom: 30px;

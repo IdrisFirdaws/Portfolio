@@ -81,7 +81,7 @@ export const Projects = [
         "desc": "A social media platform enabling users to connect and chat with others for seamless communication and interaction.",
         "skills": ["React", "JavaScript"],
         "demo": "https://olive-social.vercel.app/",
-        "source": "https://github.com/IdrisFirdaws/AfriRecipes"
+        "source": "https://github.com/IdrisFirdaws/O-live"
     },
     {
         "title": "Zee's Kitchen",
@@ -89,7 +89,7 @@ export const Projects = [
         "desc": "A restaurant booking website facilitating reservations and dining experiences at various eateries for users' convenience.",
         "skills": ["HTML", "CSS", "JavaScript"],
         "demo": "https://zs-kitchen.vercel.app/",
-        "source": "https://github.com/IdrisFirdaws/AfriRecipes"
+        "source": "https://github.com/IdrisFirdaws/Zees-Kitchenn"
     },
     {
         "title": "Zhomes",
@@ -97,16 +97,24 @@ export const Projects = [
         "desc": "A real estate website showcasing property listings and facilitating easy transactions for buyers, sellers, and renters.",
         "skills": ["HTML", "Bootstrap", "JavaScript",],
         "demo": "https://zhomes.vercel.app/",
-        "source": "https://github.com/IdrisFirdaws/AfriRecipes"
+        "source": "https://github.com/IdrisFirdaws/ZHomes"
     },
     {
-        "title": "Zee's Shop",
-        "image": "assets/project/zees-shop.png",
-        "desc": "A real estate website showcasing property listings and facilitating easy transactions for buyers, sellers, and renters.",
-        "skills": ["HTML", "CSS", "JavaScript"],
-        "demo": "https://zees-shop.vercel.app/",
-        "source": "https://github.com/IdrisFirdaws/AfriRecipes"
-    }
+        "title": "Dooddle",
+        "image": "assets/project/dooddle.png",
+        "desc": "A playful web canvas for toddlers to unleash creativity with colorful drawings and easy mouse/touch doodles.",
+        "skills": ["HTML", "CSS", "JavaScript",],
+        "demo": "https://dooddle.vercel.app/",
+        "source": "https://github.com/IdrisFirdaws/dooddles"
+    },
+    // {
+    //     "title": "Zee's Shop",
+    //     "image": "assets/project/zees-shop.png",
+    //     "desc": "An online shopping website providing a user-friendly interface for browsing, selecting, and purchasing products online.",
+    //     "skills": ["HTML", "CSS", "JavaScript"],
+    //     "demo": "https://zees-shop.vercel.app/",
+    //     "source": "https://github.com/IdrisFirdaws/Zees-Shop"
+    // }
 ]
 
 export default function Data() {
