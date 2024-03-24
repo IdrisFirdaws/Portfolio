@@ -76,6 +76,14 @@ export const Projects = [
         "source": "https://github.com/IdrisFirdaws/AfriRecipes"
     },
     {
+        "title": "Support Cycle",
+        "image": "assets/project/support-cycle.png",
+        "desc": "NGO empowering rural entrepreneurs with grants, resources. Driving economic growth in West Africa.",
+        "skills": ["HTML", "JavaScript", "Sass"],
+        "demo": "https://support-cycle.web.app/",
+        "source": "https://github.com/IdrisFirdaws/support-cycle"
+    },
+    {
         "title": "O-live",
         "image": "assets/project/o-live.png",
         "desc": "A social media platform enabling users to connect and chat with others for seamless communication and interaction.",
