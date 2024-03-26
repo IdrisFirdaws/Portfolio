@@ -23,6 +23,9 @@
     font-size: 2em;
       font-weight: 400;
       letter-spacing: 2px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
   }
   
   .contactRight{

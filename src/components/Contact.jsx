@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/contact.css'
+import Email from './Email'
 
 export default function contact() {
     return (
@@ -12,7 +13,10 @@ export default function contact() {
 
             <div className="contactWrapper">
                 <div className="contactLeft">
-                    <p className="contactText">Feel free to reach out to me</p>
+                    <div className="contactText">
+                        <p>Send me an email</p>
+                        <Email />
+                    </div>
                 </div>
 
                 <ul className='contactRight'>
