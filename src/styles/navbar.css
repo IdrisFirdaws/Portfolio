@@ -14,12 +14,12 @@
 }
 
 .navBg{
-  background-color: rgba(147, 232, 243, 0.5);
+  background-color: var(--bg-hero);
 }
 
 .navbarContainer a{
   text-decoration: none;
-  color: #01045c;
+  color: var(--text-light);
 }
 
 .navbarBrand{

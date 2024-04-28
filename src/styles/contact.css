@@ -1,6 +1,6 @@
 .contactContainer{
     flex-direction: column;
-    background-color: #fdfcf3;;
+    background-color: var(--bg-color);
     gap: 20px;
     overflow-y: hidden;
     justify-content: center;
@@ -42,8 +42,9 @@
     display: flex;
         align-items: center;
         gap: 5px;
-        background-color: #f743df;
-        background: linear-gradient(90deg, #f743df 0%, #faec29 100%);
+        background-color: var(--special-color);
+        background: linear-gradient(90deg, #fdfcf3 0%, #fdf7a2 100%);
+        border: 2px solid var(--bg-color);
         min-width: 350px;
         justify-content: flex-start;
         padding: 5px 15px;
@@ -53,7 +54,7 @@
   }
 
   .contactLinks:hover{
-    background-image: linear-gradient(to right, #faec29, #f743df);
+    background-image: linear-gradient(to right, #fdf7a2, #93e8f3);
 
   }
   
@@ -66,7 +67,7 @@
     top: -120px;
     left: -10vw;
     border-radius: 764px;
-    background: #f7eb7f;
+    background: var(--special-color);
     filter: blur(100px);
     z-index: 0;
   }
@@ -80,7 +81,7 @@
     top: 250px;
     right: -20vw;
     border-radius: 764px;
-    background-color: #f7eb7f;
+    background-color: var(--special-color);
     filter: blur(100px);
     z-index: 0;
   }

@@ -23,6 +23,7 @@
   }
   
   .projectItem {
+    position: relative;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
@@ -32,6 +33,7 @@
     padding: 10px 5px;
     max-width: 345px;
     margin-bottom: 15px;
+    min-height: 550px;
   }
 
 
@@ -62,6 +64,8 @@
   }
   
   .projectSkills {
+    position: absolute;
+    bottom: 70px;
     width: 100%;
     margin-top: 14px;
     display: flex;
@@ -78,11 +82,13 @@
     font-weight: 400;
     border-radius: 4px;
     background-color: #fdf7a2;
-    background: linear-gradient( 90deg, #fdf7a2 0%, #f743df 100%);
+    background: linear-gradient( 90deg, #fdf7a2 0%, #fdfcf3 100%);
     padding: 0 10px;
   }
   
   .projectLinks {
+    position: absolute;
+    bottom: 30px;
     width: 100%;
     margin-top: 25px;
     display: flex;

@@ -48,7 +48,7 @@
     }
 
     .skillImgContainer{
-      background-color: #f8a0ec;
+      background-color:var(--special-color);
     }
   
     .skillImage {
@@ -57,7 +57,7 @@
     }
   
     .tool{
-      background-color: #fdf7a2;
+      background-color: var(--special-color);
     }
   
     

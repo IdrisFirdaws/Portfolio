@@ -1,7 +1,21 @@
 /* hero */
 
+:root{
+  --text-color: #01045c;
+  --text-light: #fdfcf3;
+
+  --main-color: #93e8f3;
+  --special-color:  #fdf7a2;
+  --blur-color: #046572;
+
+ --bg-color: #fdfcf3;
+ --bg-dark:  #01045c;
+ --bg-hero: rgba(1, 20, 22, 0.9);
+ 
+}
+
 .heroBg{
-    background-color: #fdfcf3;
+    background-color: var(--bg-color);
     width: 100vw;
     overflow: hidden;
   }
@@ -22,15 +36,15 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(147, 232, 243, 0.9);
+    background-color: var(--bg-hero);
     border-radius: 0 0 0 100px;
-    
 }
   
   .heroTexts {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    color: var(--text-light);
     z-index: 1;
   }
   
@@ -40,8 +54,8 @@
     margin-bottom: 30px;
     background: linear-gradient(
       0deg,
-      #fdfcf3 -50%,
-      #01045c 100%
+      #fdfcf3 -10%,
+      #f8f2bf 200%
     );
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -65,11 +79,12 @@
     font-weight: 600;
     color: #01045c;
     background-color: #fdfcf3;
-    transition: 0.3s ease-in-out;
+    transition: 0.3s ease;
   }
 
   .heroContact:hover {
     background-image: linear-gradient(to right, #fdfcf3, #f7eb7f);
+    border: 2px solid var(--special-color);
   }
   
   .heroImg {
@@ -91,7 +106,7 @@
     top: -120px;
     left: -10vw;
     border-radius: 764px;
-    background: #046572;
+    background: var(--blur-color);
     filter: blur(100px);
     z-index: 0;
   }
@@ -105,7 +120,7 @@
     top: 250px;
     right: 25vw;
     border-radius: 764px;
-    background-color: #046572;
+    background-color: var(--blur-color);
     filter: blur(100px);
     z-index: 0;
   }
