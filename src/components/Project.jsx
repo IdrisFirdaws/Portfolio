@@ -15,7 +15,7 @@ export default function Project() {
                 {
                     Projects.map((p, id) =>
                         <div className='projectItem' key={id}>
-                            <a href={p.demo}>
+                            <a href={p.demo} target='blank'>
                                 <img src={p.image} alt="" className='projectImage' />
                                 <h3 className="projectItemTitle">{p.title}</h3>
                                 <p className="projectDecs">{p.desc}</p>

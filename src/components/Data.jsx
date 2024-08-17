@@ -68,11 +68,27 @@ export const Tools = [
 
 export const Projects = [
     {
+        "title": "ZeeCode Academy",
+        "image": "assets/project/zeecode.png",
+        "desc": "An app providing users with recipe search and meal planning features for easy and convenient meal preparation.",
+        "skills": ["ReactJs", "RestAPI", "Sass"],
+        "demo": "https://zeecode.vercel.app/",
+        "source": "https://github.com/IdrisFirdaws/ZeeCode"
+    },
+    {
         "title": "AfriRecipes",
         "image": "assets/project/afri-recipe.png",
         "desc": "An app providing users with recipe search and meal planning features for easy and convenient meal preparation.",
-        "skills": ["React", "JavaScript", "Sass"],
+        "skills": ["ReactJs", "RestAPI", "Sass"],
         "demo": "https://afri-recipes.vercel.app/",
+        "source": "https://github.com/IdrisFirdaws/AfriRecipes"
+    },
+    {
+        "title": "LangTrans",
+        "image": "assets/project/lang-trans.png",
+        "desc": "A one-page portfolio app for a video translator, translated into 10 languages using i18n for accessibitly",
+        "skills": ["ReactJs", 'i18n', "Sass"],
+        "demo": "https://https://langtrans.vercel.app/",
         "source": "https://github.com/IdrisFirdaws/AfriRecipes"
     },
     {

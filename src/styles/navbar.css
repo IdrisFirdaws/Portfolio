@@ -76,7 +76,7 @@
     text-align: center;
     gap: 15px;
     border-radius: 10px;
-    background-color: rgba(253, 252, 243, 0.7);
+    background-color: var(--bg-hero);
     box-shadow: 0 0 6px #89898a;
     padding: 24px 35px;
     

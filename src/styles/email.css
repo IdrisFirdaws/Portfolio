@@ -8,7 +8,7 @@ margin-right: 20px;
     display: flex;
     flex-direction: column;
     gap: 5px;
-    align-items: center;
+    align-items: start;
     justify-content: center;
 }
 
@@ -19,18 +19,17 @@ input{
     background-color: #fff;
     border-radius: 6px;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 textarea{
-    width: 110%;
+    width: 97%;
     border: none;
     outline: none;
     background-color: #fff;
     border-radius: 6px;
     padding: 10px;
-    margin-bottom: 10px;
-    margin-left: -5%;
+    margin: 5px 0;
 }
 
 input:focus, textarea:focus{
@@ -38,6 +37,13 @@ input:focus, textarea:focus{
 }
 
 .send{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.send input{
     text-decoration: none;
     text-align: center;
     padding: 5px;
@@ -50,6 +56,6 @@ input:focus, textarea:focus{
     width: 50%;
 }
 
-.send:hover{
+.send input:hover{
     background-image: linear-gradient(to right, #fdfcf3, #f7eb7f);
 }
